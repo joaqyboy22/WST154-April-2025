@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #eef2f7;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+main {
+    width: 100%;
+    max-width: 600px;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#movieList {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.movie-item {
+    background: #333;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.movie-item img {
+    max-width: 100%;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.delete-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: crimson;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: darkred;
+}
